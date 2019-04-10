@@ -1,0 +1,76 @@
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Pacifico');
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /*----------------------------- navigation --*/
+
+    .bg-light {
+        background-color: rgba(149, 150, 150, 0.8)!important;
+        /* override the bootstrap navbar background color */
+    }
+
+    .navbar-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        z-index: 1;
+    }
+
+    nav img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    nav .nav-link {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /*----------------------------- home --*/
+
+    .home-container {
+        height: 100vh;
+        background: url("../images/bg.png") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .home-container h1 {
+        font-family: 'Pacifico', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        color: #000000;
+        margin-top: 30rem;
+    }
+    
+    .chevron {
+        font-size: 50px;
+    }
+
+    .jumbotron {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    /*----------------------------- about --*/
+
+    /*----------------------------- music --*/
+
+    /*----------------------------- videos --*/
+
+    /*----------------------------- contact --*/
+
+    /*----------------------------- footer --*/
+    
+    

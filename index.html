@@ -10,24 +10,48 @@
 </head>
 
 <body>
-    <article class="container">
-        <!-- nav -->
+    <!-- start nav -->
+    <div class="container-fluid navbar-container">
+        <nav class="navbar navbar-light bg-light">
 
-        <!-- ./nav -->
+            <a class="navbar-brand" href="#">
+    <img src="assets/images/#.jpeg" class="d-inline-block align-top" alt="Flatcap carnival logo">
+  </a>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gigs">Gigs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#media">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- end nav -->
 
-        <!-- home -->
+    <article class="container mt-3">
+        <!-- start home -->
         <div class="row">
             <div class="col-12">
-                <section class="home" id="home">
+                <section class="home jumbotron" id="home">
                     <h1>Flatcap Carnival</h1>
                     <p><i class="fas fa-chevron-down"></i></p>
                 </section>
             </div>
         </div>
-        <!-- /.home -->
+        <!-- end home -->
         <hr>
 
-        <!-- about -->
+        <!-- start about -->
         <section class="about" id="about">
             <div class="row">
                 <div class="col-12">
@@ -47,51 +71,111 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
-                    <blockquote class="profile">
-                        <p>Lee Richardson</p>
-                    </blockquote>
-                    <p>Lead Singer and Percussion.</p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="media">
+                        <img src="assets/images/profile-pictures/lee-richardson.png" class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="profile">
+                                <h4>Lee Richardson</h4>
+                            </blockquote>
+                            <p>Lead Singer and Percussion.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <blockquote class="profile">
-                        <p>George Green</p>
-                    </blockquote>
-                    <p>Trumpet.</p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="media">
+                        <img src="assets/images/profile-pictures/lee-richardson.png" class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="profile">
+                                <p>George Green</p>
+                            </blockquote>
+                            <p>Trumpet.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <blockquote class="profile">
-                        <p>Pete Hyndman</p>
-                    </blockquote>
-                    <p>Bass man and Backing vocals.</p>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="media">
+                        <img src="assets/images/profile-pictures/lee-richardson.png" class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="profile">
+                                <p>Pete Hyndman</p>
+                            </blockquote>
+                            <p>Bass man and Backing vocals.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+            <!-- show new row on medium screens only -->
             <div class="row">
-                <div class="col-4">
-                    <blockquote class="profile">
-                        <p>Joe Sledmore</p>
-                    </blockquote>
-                    <p>Drums and Percussion.</p>
+                <div class="col-12 d-sm-none d-md-block col-md-6 d-lg-none">
+                    <div class="media">
+                        <img src="assets/images/profile-pictures/lee-richardson.png" class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="profile">
+                                <p>Pete Hyndman</p>
+                            </blockquote>
+                            <p>Bass man and Backing vocals.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <blockquote class="profile">
-                        <p>Charles Tomlinson</p>
-                    </blockquote>
-                    <p>Trumpet.</p>
+                <div class="col-12 d-sm-none d-md-block col-md-6 d-lg-none">
+                    <div class="media">
+                        <img src="assets/images/profile-pictures/lee-richardson.png" class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="profile">
+                                <p>Joe Sledmore</p>
+                            </blockquote>
+                            <p>Drums and Percussion.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <blockquote class="profile">
-                        <p>Joe Griffiths</p>
-                    </blockquote>
-                    <p>Keyboard and Backing vocals.</p>
+            </div>
+
+            <!-- end new row -->
+
+            <div class="row">
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="media">
+                        <img src="assets/images/profile-pictures/lee-richardson.png" class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="profile">
+                                <p>Joe Sledmore</p>
+                            </blockquote>
+                            <p>Drums and Percussion.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="media">
+                        <img src="assets/images/profile-pictures/lee-richardson.png" class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="profile">
+                                <p>Charles Tomlinson</p>
+                            </blockquote>
+                            <p>Trumpet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="media">
+                        <img src="assets/images/profile-pictures/lee-richardson.png" class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="profile">
+                                <p>Joe Griffiths</p>
+                            </blockquote>
+                            <p>Keyboard and Backing vocals.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- /.about -->
+        <!-- end about -->
         <hr>
 
         <!-- gigs -->
-        <section class="gigs">
+        <section class="gigs" id="gigs">
             <div class="row">
                 <div class="col-12">
                     <h2 class="text-uppercase">Gigs</h2>
@@ -156,19 +240,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm">
+                <div class="col-12 col-sm col-md-6 col-lg-4">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gxW06HDPweQ" allowfullscreen></iframe>
                     </div>
                     <p class="media-detail">Valentino (Live from Reel Studios)</p>
                 </div>
-                <div class="col-sm">
+                <div class="col-12 col-sm col-md-6 col-lg-4">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1YHjTiqAuzI" allowfullscreen></iframe>
                     </div>
                     <p class="media-detail">Mexico</p>
                 </div>
-                <div class="col-sm">
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UgwjEozjADU" allowfullscreen></iframe>
                     </div>
@@ -176,15 +260,15 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm">
+                <div class="col-12 col-md-6 col-lg-4">
                     <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/565893480&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                     <p class="media-detail">Poder De La Tortuga</p>
                 </div>
-                <div class="col-sm">
+                <div class="col-12 col-md-6 col-lg-4">
                     <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/565893477&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                     <p class="media-detail">Slip Away</p>
                 </div>
-                <div class="col-sm">
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/565893474&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                     <p class="media-detail">Going Nowhere</p>
                 </div>
@@ -243,7 +327,14 @@
         <section class="footer">
             <div class="row">
                 <div class="col-12">
-                    <p>Footer section</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="copyrite">Copyrite &copy; 2019 | Flatcap Carnival</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="social">Social media links</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

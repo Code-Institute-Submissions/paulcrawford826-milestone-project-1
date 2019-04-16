@@ -4,10 +4,20 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(174, 174, 174);
 }
 
 .text-uppercase {
     text-align: center;
+}
+
+.transparent-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(174, 174, 174, 0.70);
 }
 
 /*----------------------------------------------- Navbar ---------*/
@@ -34,9 +44,11 @@ nav img {
 }
 
 nav .nav-link {
-        text-decoration: none;
-        color: #fff;
-    }
+    text-decoration: none;
+    color: #fff;
+}
+
+
 
 /*----------------------------------------------- Home ---------*/
 
@@ -69,19 +81,59 @@ nav .nav-link {
 
 /*----------------------------------------------- About ---------*/
 
-.about-container {}
+.about {
+    margin: 40px;
+}
+
+.about img {
+    margin-bottom: 10px;
+}
+
 
 /*----------------------------------------------- Gigs ---------*/
 
-.gigs-container {}
+.gigs-container {
+    background: url("../images/studio.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 /*----------------------------------------------- Media ---------*/
 
-.media-container {}
+.my-media {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.media-body {
+    margin-top: 10px;
+}
+
+.my-media p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
 
 /*----------------------------------------------- Contact ---------*/
 
-.contact-container {}
+.contact-container {
+    background: url("../images/paint-splash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 /*----------------------------------------------- Footer ---------*/
 

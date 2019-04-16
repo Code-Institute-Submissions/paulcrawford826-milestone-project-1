@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+
+/*----------------------------------------------- Global ---------*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-uppercase {
+    text-align: center;
+}
+
+/*----------------------------------------------- Navbar ---------*/
+
+.navbar-light {
+    background-color: rgba(174, 174, 174, 0.70)!important;
+    /* override the bootstrap navbar background color */
+}
+
+.navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+nav .nav-link {
+        text-decoration: none;
+        color: #fff;
+    }
+
+/*----------------------------------------------- Home ---------*/
+
+.home-container {
+    height: 100vh;
+    background: url(../images/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.band-name {
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Pacifico', sans-serif;
+    margin-top: 30rem;
+}
+
+.home i {
+    font-size: 60px;
+}
+
+/*----------------------------------------------- About ---------*/
+
+.about-container {}
+
+/*----------------------------------------------- Gigs ---------*/
+
+.gigs-container {}
+
+/*----------------------------------------------- Media ---------*/
+
+.media-container {}
+
+/*----------------------------------------------- Contact ---------*/
+
+.contact-container {}
+
+/*----------------------------------------------- Footer ---------*/
+
+.footer-container {}

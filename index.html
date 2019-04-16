@@ -7,15 +7,16 @@
     <title>Flatcap Carnival</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
 </head>
 
 <body>
     <!-- start nav -->
     <div class="container-fluid navbar-container">
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light">
 
             <a class="navbar-brand" href="#">
-    <img src="assets/images/#.jpeg" class="d-inline-block align-top" alt="Flatcap carnival logo">
+    <img src="assets/images/logo.jpeg" class="d-inline-block align-top" alt="Flatcap carnival logo">
   </a>
             <ul class="nav">
                 <li class="nav-item">
@@ -37,21 +38,22 @@
         </nav>
     </div>
     <!-- end nav -->
-
-    <article class="container mt-3">
-        <!-- start home -->
+    
+    <!-- start home -->
+    <div class="container-fluid home-container">
         <div class="row">
             <div class="col-12">
-                <section class="home jumbotron" id="home">
-                    <h1>Flatcap Carnival</h1>
+                <section class="home jumbotron text-center" id="home">
+                    <h1 class="band-name">Flatcap Carnival</h1>
                     <p><i class="fas fa-chevron-down"></i></p>
                 </section>
             </div>
         </div>
-        <!-- end home -->
-        <hr>
+    </div>
+    <!-- end home -->
 
-        <!-- start about -->
+    <!-- start about -->
+    <div class="about-container">
         <section class="about" id="about">
             <div class="row">
                 <div class="col-12">
@@ -76,7 +78,7 @@
                         <img src="assets/images/profile-pictures/lee-richardson.png" class="rounded-circle mr-3" height="100" width="100">
                         <div class="media-body">
                             <blockquote class="profile">
-                                <h4>Lee Richardson</h4>
+                                <p>Lee Richardson</p>
                             </blockquote>
                             <p>Lead Singer and Percussion.</p>
                         </div>
@@ -172,9 +174,10 @@
             </div>
         </section>
         <!-- end about -->
-        <hr>
+    </div>
 
-        <!-- gigs -->
+    <!-- start gigs -->
+    <div class="gigs-container">
         <section class="gigs" id="gigs">
             <div class="row">
                 <div class="col-12">
@@ -229,10 +232,11 @@
                 </div>
             </div>
         </section>
-        <!-- /.gigs -->
-        <hr>
+        <!-- end gigs -->
+    </div>
 
-        <!-- media -->
+    <!-- start media -->
+    <div class="media-container">
         <section class="my-media" id="media">
             <div class="row">
                 <div class="col-12">
@@ -274,10 +278,11 @@
                 </div>
             </div>
         </section>
-        <!-- /.media -->
-        <hr>
+        <!-- end media -->
+    </div>
 
-        <!-- contact -->
+    <!-- start contact -->
+    <div class="contact-container">
         <section class="contact" id="contact">
             <div class="row">
                 <div class="col-12">
@@ -320,10 +325,11 @@
                 </div>
             </div>
         </section>
-        <!-- /.contact -->
-        <hr>
+    </div>
+    <!-- end contact -->
 
-        <!-- footer -->
+    <!-- start footer -->
+    <div class="footer-container">
         <section class="footer">
             <div class="row">
                 <div class="col-12">
@@ -338,8 +344,8 @@
                 </div>
             </div>
         </section>
-        <!-- /.footer -->
-    </article>
+    </div>
+    <!-- end footer -->
 </body>
 
 </html>

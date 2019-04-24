@@ -4,11 +4,14 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: rgb(174, 174, 174);
 }
 
 .text-uppercase {
     text-align: center;
+}
+
+.jumbotron {
+    background-color: transparent;
 }
 
 .transparent-overlay {
@@ -18,6 +21,21 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(174, 174, 174, 0.70);
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1rem;
 }
 
 /*----------------------------------------------- Navbar ---------*/
@@ -64,10 +82,6 @@ nav .nav-link {
     justify-content: center;
 }
 
-.jumbotron {
-    background-color: transparent;
-}
-
 .band-name {
     font-weight: bold;
     font-size: 60px;
@@ -81,14 +95,16 @@ nav .nav-link {
 
 /*----------------------------------------------- About ---------*/
 
-.about {
-    margin: 40px;
+.about-container {
+    background-color: rgb(174, 174, 174);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .about img {
     margin-bottom: 10px;
 }
-
 
 /*----------------------------------------------- Gigs ---------*/
 
@@ -98,13 +114,33 @@ nav .nav-link {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.gigs {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.table {
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
 }
 
 /*----------------------------------------------- Media ---------*/
+
+.media-container {
+    background-color: rgb(174, 174, 174);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
 
 .my-media {
     margin-left: 20px;
@@ -129,10 +165,12 @@ nav .nav-link {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 /*----------------------------------------------- Footer ---------*/

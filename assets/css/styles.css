@@ -147,10 +147,14 @@ nav .nav-link {
     margin-right: 20px;
 }
 
-.table {
+.row .gigs-col {
     text-align: center;
-    background-color: rgba(224, 224, 225, .60);
+    background-color: rgba(224, 224, 225, .80);
     border-radius: 15px;
+}
+
+.gig-text{
+    padding:5px;
 }
 
 /*----------------------------------------------- Media ---------*/
@@ -191,6 +195,10 @@ nav .nav-link {
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 50px;
+}
+
+label {
+    font-weight: bolder;
 }
 
 /*----------------------------------------------- Footer ---------*/

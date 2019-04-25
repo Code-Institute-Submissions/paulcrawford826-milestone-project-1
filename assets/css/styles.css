@@ -1,9 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
 
+
+/*----------------------------------------------- Bootstrap overides --------*/
+
+.media {
+    padding: 10px;
+}
+
+.navbar-dark {
+    background-color: rgba(74, 72, 72, 0.7)!important;
+    /* override the bootstrap navbar background color */
+}
+
+.h2, h2 {
+    font-weight: bold;
+}
+
 /*----------------------------------------------- Global ---------*/
+
+ /*css to remove extra space on right of screen taken from Stackoverflow*/
+ 
+html, body {
+   max-width: 100%;
+   overflow-x: hidden;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(174, 174, 174);
 }
 
 .text-uppercase {
@@ -40,11 +64,6 @@ h6 {
 
 /*----------------------------------------------- Navbar ---------*/
 
-.navbar-light {
-    background-color: rgba(174, 174, 174, 0.70)!important;
-    /* override the bootstrap navbar background color */
-}
-
 .navbar-container {
     position: absolute;
     top: 0;
@@ -59,10 +78,12 @@ nav img {
     width: 50px;
     height: 50px;
     border-radius: 10px;
+    margin-left: 10px;
 }
 
 nav .nav-link {
     text-decoration: none;
+    font-style: bold;
     color: #fff;
 }
 
@@ -96,7 +117,6 @@ nav .nav-link {
 /*----------------------------------------------- About ---------*/
 
 .about-container {
-    background-color: rgb(174, 174, 174);
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 50px;
@@ -129,14 +149,13 @@ nav .nav-link {
 
 .table {
     text-align: center;
-    background-color: white;
+    background-color: rgba(224, 224, 225, .60);
     border-radius: 15px;
 }
 
 /*----------------------------------------------- Media ---------*/
 
 .media-container {
-    background-color: rgb(174, 174, 174);
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 50px;
@@ -155,6 +174,7 @@ nav .nav-link {
     text-align: center;
     font-size: 20px;
     color: white;
+    padding: 10px;
 }
 
 /*----------------------------------------------- Contact ---------*/
@@ -175,4 +195,7 @@ nav .nav-link {
 
 /*----------------------------------------------- Footer ---------*/
 
-.footer-container {}
+.footer-container {
+    text-align: center;
+    padding: 20px;
+}

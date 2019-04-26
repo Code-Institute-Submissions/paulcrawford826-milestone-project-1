@@ -12,17 +12,19 @@
     /* override the bootstrap navbar background color */
 }
 
-.h2, h2 {
+.h2,
+h2 {
     font-weight: bold;
 }
 
 /*----------------------------------------------- Global ---------*/
 
- /*css to remove extra space on right of screen taken from Stackoverflow*/
- 
-html, body {
-   max-width: 100%;
-   overflow-x: hidden;
+/*css to remove extra space on right of screen taken from Stackoverflow*/
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -153,8 +155,8 @@ nav .nav-link {
     border-radius: 15px;
 }
 
-.gig-text{
-    padding:5px;
+.gig-text {
+    padding: 5px;
 }
 
 /*----------------------------------------------- Media ---------*/
@@ -197,9 +199,11 @@ nav .nav-link {
     padding-bottom: 50px;
 }
 
-label {
+.label {
     font-weight: bolder;
 }
+
+
 
 /*----------------------------------------------- Footer ---------*/
 
@@ -208,23 +212,40 @@ label {
 }
 
 /* Set the background color of body to tan */
+
 .copyrite {
-  text-align: left;
+    text-align: left;
 }
 
 /* Set the background color of body to tan */
+
 .social {
-  text-align: right;
+    text-align: right;
+}
+
+.social a {
+    color: rgba(0,0,0,0.75);
+    padding: 7px;
+}
+
+.social a:hover {
+    color: rgba(0,0,0,0.50);
+    text-decoration: none;
+}
+
+.social-links .ul {
+    display: flex;
+    list-style: none;
 }
 
 @media screen and (max-width: 767px) {
- .copyrite {
-    text-align: center;
-  }
+    .copyrite {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 767px) {
-.social {
-  text-align: center;
-}
+    .social {
+        text-align: center;
+    }
 }

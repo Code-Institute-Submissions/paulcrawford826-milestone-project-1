@@ -12,9 +12,12 @@
     /* override the bootstrap navbar background color */
 }
 
+
+
 .h2,
 h2 {
     font-weight: bold;
+    margin: 1rem;
 }
 
 /*----------------------------------------------- Global ---------*/
@@ -50,17 +53,9 @@ body {
 }
 
 .h1,
-.h2,
-.h3,
 .h4,
-.h5,
-.h6,
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h4 {
     margin: 1rem;
 }
 
@@ -83,13 +78,13 @@ nav img {
     margin-left: 10px;
 }
 
-nav .nav-link {
-    text-decoration: none;
-    font-style: bold;
-    color: #fff;
+.navbar-dark .navbar-nav .nav-link {
+     color: #fff; 
 }
 
-
+.navbar-dark .navbar-toggler {
+    border: none;
+}
 
 /*----------------------------------------------- Home ---------*/
 
@@ -127,6 +122,9 @@ nav .nav-link {
 .about img {
     margin-bottom: 10px;
 }
+.name {
+    font-weight: bold;
+}
 
 /*----------------------------------------------- Gigs ---------*/
 
@@ -147,6 +145,11 @@ nav .nav-link {
 .gigs {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.row {
+    padding: 15px;
+  
 }
 
 .row .gigs-col {

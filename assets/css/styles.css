@@ -204,6 +204,27 @@ label {
 /*----------------------------------------------- Footer ---------*/
 
 .footer-container {
-    text-align: center;
     padding: 20px;
+}
+
+/* Set the background color of body to tan */
+.copyrite {
+  text-align: left;
+}
+
+/* Set the background color of body to tan */
+.social {
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+ .copyrite {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+.social {
+  text-align: center;
+}
 }

@@ -73,16 +73,16 @@ h2 {
 
 .home-container {
     height: 100vh;
-    background: url(../images/bg.png) no-repeat center center fixed;
+    background: url(../images/bg.png) no-repeat center center;
     display: flex;
 }
 
 .gigs-container {
-    background: url("../images/studio.jpg") no-repeat center center fixed;
+    background: url("../images/studio.jpg") no-repeat center center;
 }
 
 .contact-container {
-    background: url("../images/paint-splash.jpg") no-repeat center center fixed;
+    background: url("../images/paint-splash.jpg") no-repeat center center;
 }
 
 .generic-container {

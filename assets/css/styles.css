@@ -1,34 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
-
-
-/*----------------------------------------------- Bootstrap overides --------*/
-
-.media {
-    padding: 10px;
-}
-
-.navbar-dark {
-    background-color: rgba(74, 72, 72, 0.7)!important;
-    /* override the bootstrap navbar background color */
-}
-
-
-
-.h2,
-h2 {
-    font-weight: bold;
-    margin: 1rem;
-}
-
 /*----------------------------------------------- Global ---------*/
 
-/*css to remove extra space on right of screen taken from Stackoverflow*/
-
-html,
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -59,7 +31,35 @@ h4 {
     margin: 1rem;
 }
 
-/*----------------------------------------------- Navbar ---------*/
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*----------------------------------------------- Bootstrap overides ---*/
+
+.media {
+    padding: 10px;
+}
+
+.navbar-dark {
+    background-color: rgba(74, 72, 72, 0.7)!important;
+    /* override the bootstrap navbar background color */
+}
+
+.h2,
+h2 {
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.row {
+    padding: 15px;
+  
+}
+
+/*----------------------------------------------- Containers -----*/
 
 .navbar-container {
     position: absolute;
@@ -70,6 +70,32 @@ h4 {
     padding-right: 0;
     z-index: 1;
 }
+
+.home-container {
+    height: 100vh;
+    background: url(../images/bg.png) no-repeat center center fixed;
+    display: flex;
+}
+
+.gigs-container {
+    background: url("../images/studio.jpg") no-repeat center center fixed;
+}
+
+.contact-container {
+    background: url("../images/paint-splash.jpg") no-repeat center center fixed;
+}
+
+.generic-container {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*----------------------------------------------- Navbar ---------*/
 
 nav img {
     width: 50px;
@@ -88,18 +114,6 @@ nav img {
 
 /*----------------------------------------------- Home ---------*/
 
-.home-container {
-    height: 100vh;
-    background: url(../images/bg.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .band-name {
     font-weight: bold;
     font-size: 60px;
@@ -113,43 +127,19 @@ nav img {
 
 /*----------------------------------------------- About ---------*/
 
-.about-container {
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-}
-
 .about img {
     margin-bottom: 10px;
 }
+
 .name {
     font-weight: bold;
 }
 
 /*----------------------------------------------- Gigs ---------*/
 
-.gigs-container {
-    background: url("../images/studio.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-}
-
 .gigs {
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.row {
-    padding: 15px;
-  
 }
 
 .row .gigs-col {
@@ -163,12 +153,6 @@ nav img {
 }
 
 /*----------------------------------------------- Media ---------*/
-
-.media-container {
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-}
 
 .my-media {
     margin-left: 20px;
@@ -194,39 +178,19 @@ nav img {
 
 /*----------------------------------------------- Contact ---------*/
 
-.contact-container {
-    background: url("../images/paint-splash.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-}
-
 .label {
     font-weight: bolder;
 }
 
-
-
-/*----------------------------------------------- Footer ---------*/
+/*----------------------------------------------- Footer ----------*/
 
 .footer-container {
     padding: 20px;
 }
 
-/* Set the background color of body to tan */
-
 .copyrite {
     text-align: left;
 }
-
-/* Set the background color of body to tan */
 
 .social {
     text-align: right;
@@ -246,6 +210,9 @@ nav img {
     display: flex;
     list-style: none;
 }
+
+/*----------------------------------------------- Media Queries ----*/
+
 
 @media screen and (max-width: 767px) {
     .copyrite {

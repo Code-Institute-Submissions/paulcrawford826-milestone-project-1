@@ -19,41 +19,39 @@ After my research i went through some the following user stories:
 - As a potential booker, I want to see the band in action, to see how they perform.
 - As a potential booker, I want to see contact the band, to find out if they are available.
 
-I then created 3 different wireframes,  a 5 page website and 2x 1 page websites which can be found in the assets folder hosted here [a relative link]( assets/wireframes). after evaluating the pros and cons i decided to go with the one page website as this would best suit the functions required. I then developed the website, initialy inputing the basic structure and all the information for the final site then woking my way to the design phase with HTMl5 and CSS3 using the mobile first approach ensuring that the website functioned correctly on the smallest screen first then worked my way up to the largest screen.
+I then created 3 different wireframes,  a 5 page website and 2x 1 page websites which can be found in the assets folder hosted here [Wireframes]( assets/wireframes). after evaluating the pros and cons i decided to go with the one page website [version 1.3]( assets/wireframes/1.3) as this would best suit the functions required. I then developed the website, initialy inputing the basic structure and all the information for the final site then woking my way to the design phase with HTMl5 and CSS3 using the mobile first approach ensuring that the website functioned correctly on the smallest screen first then worked my way up to the largest screen.
 
 This website was built mainly for fans of the band to keep up to date with the band but can also be used by potential fans and promoters to book the band for gigs. 
-
-
-
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Fixed Navigation bar - allows all users see the band Logo and navigate the site with ease, Being a fixed top navbar allows access to the navigation at all times without scrolling.
+- Book tickets to gigs - allows fans and potential fans to book tickets to gigs, by clciking a button they can purchase tickets to chosen gigs.
+- View videos - Allows all users to view selected videos, by clicking play in an embedded YouTube video.
+- Listen to music - Allows all users to listen to the band play, by clicking play in an embedded SoundCloud media player.
+- Contact the band - Allows all members to contact the band, By filling in name, address, subject and message into a form and clicking the submit button.
+- Social - Allows all members to keep up to date on the band and like/follow the bands social media accounts, By clicking on the relevant social media icons in the footer section.
 
 ### Features Left to Implement
-- Another feature idea
+
+- Create function for the gigs section to pull data from a database kepping it up to date.
+- Implement ticket buying feature and link buy ticket button to it.
+- Create a functioning contact us feature
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [HTML5](https://www.w3schools.com/html/html5_intro.asp)
+    - The project uses **HTML5**.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [CSS3](https://www.w3schools.com/css/css_intro.asp)
+    - The project uses **CSS3**.     
+    
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** to simplify responsive design process.
+
 
 
 ## Testing

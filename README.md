@@ -125,7 +125,7 @@ During the development phase I committed the project to GitHub on numerous occas
 ### Media
 -  Images by [Hayley Roberts](www.imagesbyhayley.com) used with permission.
 -  Videos by [Flatcap Carnival](https://www.flatcapcarnival.com/) hosted on [YouTube](https://www.youtube.com/channel/UCVqsMWlbKMd_DD55xWyfV9g)
--  -  Music by [Flatcap Carnival](https://www.flatcapcarnival.com/) hosted on [SoundCloud](https://soundcloud.com/flatcap-carnival)
+-  Music by [Flatcap Carnival](https://www.flatcapcarnival.com/) hosted on [SoundCloud](https://soundcloud.com/flatcap-carnival)
 
 ### Code Snippets
  - Full screen background images by [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
@@ -138,3 +138,4 @@ During the development phase I committed the project to GitHub on numerous occas
 
 - I received inspiration for this project from the Code Institute User Centric Frontend Development introduction to bootstrap module.
 - The band current website [website](https://www.flatcapcarnival.com/)
+- Design feedback from my Mentor Owonikoko Oluwaseun.

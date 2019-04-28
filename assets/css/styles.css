@@ -238,3 +238,9 @@ nav img {
     padding-bottom: 10px;
 }
 }
+
+@media screen and (max-width: 767px) {
+.band-name {
+    margin-top: 25rem;
+}
+}

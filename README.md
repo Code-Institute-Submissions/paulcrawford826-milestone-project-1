@@ -1,11 +1,31 @@
 # Milestone Project 1 (DRAFT-1)
 
-One or two paragraphs providing an overview of your project.
+In this project i have created a static one page website for a band. I have used a mobile first approach ensuring that the website looks good on all screen sizes. The wesite is broken down into 5 section with navigation between sections.
 
-Essentially, this part is your sales pitch.
+The HTML and CSS files have been validated and there are no errors.
  
 ## UX
  
+The first thing i done in the UX process was to research the band and gather as much information as possible, I spoke to the lead singer who is a family member and also looked at their current website. 
+
+After my research i went through some the following user stories:
+
+- As a potential fan, I want to find out information about the band, so that I can see what genre music they play.
+- As a potential fan, I want to listen some music the band plays, to see if i would like it.
+- As a fan, I want to find out where/when the band are playing, so that I can see what gigs i can go to.
+- As a fan, I want to be able to book tickets to gigs, so that i dont have to search other sites for tickets.
+- As a fan, I want to keep up to informed about new releases, so that i can buy their new music.
+- As a potential booker, I want to listen to the band, to find out if they are what i want for my function.
+- As a potential booker, I want to see the band in action, to see how they perform.
+- As a potential booker, I want to see contact the band, to find out if they are available.
+
+I then created 3 different wireframes,  a 5 page website and 2x 1 page websites which can be found in the assets folder hosted here [a relative link]( assets/wireframes). after evaluating the pros and cons i decided to go with the one page website as this would best suit the functions required. I then developed the website, initialy inputing the basic structure and all the information for the final site then woking my way to the design phase with HTMl5 and CSS3 using the mobile first approach ensuring that the website functioned correctly on the smallest screen first then worked my way up to the largest screen.
+
+This website was built mainly for fans of the band to keep up to date with the band but can also be used by potential fans and promoters to book the band for gigs. 
+
+
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:

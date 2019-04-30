@@ -129,7 +129,7 @@ During the development phase I committed the project to GitHub on numerous occas
 
 ### Code Snippets
  - Full screen background images by [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
- - Smooth scrolling by - Full screen background images by [CSS Tricks](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
+ - Smooth scrolling by [CSS Tricks](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
  - html, body 100% causing scrollbar to appear [Stackoverflow users](https://stackoverflow.com/questions/34357434/html-body-100-causing-scrollbar-to-appear/34357546)
 
 ### Fonts

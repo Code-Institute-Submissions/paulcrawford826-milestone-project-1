@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+/*------------- https://css-tricks.com/sticky-smooth-active-nav/ -----*/
+html {
+  scroll-behavior: smooth;
+}
+/*------------- https://css-tricks.com/sticky-smooth-active-nav/ -----*/
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(174, 174, 174);

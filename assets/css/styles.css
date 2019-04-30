@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /*------------- https://css-tricks.com/sticky-smooth-active-nav/ -----*/
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 /*------------- https://css-tricks.com/sticky-smooth-active-nav/ -----*/
 
 body {
@@ -196,15 +198,17 @@ nav img {
 /*----------------------------------------------- Footer ----------*/
 
 .footer-container {
-    padding: 20px;
+    padding: 0px;
 }
 
 .copyrite {
-    text-align: left;
+    text-align: center;
 }
 
 .social {
-    text-align: right;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -7px;
 }
 
 .social a {
@@ -217,35 +221,26 @@ nav img {
     text-decoration: none;
 }
 
-.social-links .ul {
-    display: flex;
-    list-style: none;
-}
+/*.social-links .ul {*/
+
+/*    display: flex;*/
+
+/*    list-style: none;*/
+
+/*}*/
 
 /*----------------------------------------------- Media Queries ----*/
 
 @media screen and (max-width: 767px) {
-    .copyrite {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .social {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 767px) {
     .padding {
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-.band-name {
-    margin-top: 25rem;
-}
+    .band-name {
+        margin-top: 25rem;
+    }
 }
